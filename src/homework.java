@@ -93,7 +93,7 @@ public class homework {
 		homework hw = new homework();
 		int targets_num = 0;
 		try {
-			File myObj = new File("MyTestCases\\input24.txt");
+			File myObj = new File("Test cases\\input.txt");
 			Scanner myReader = new Scanner(myObj);
 			hw.searchtype = myReader.nextLine().trim();
 			String[] dim = myReader.nextLine().trim().split("[ ]{1,}");
